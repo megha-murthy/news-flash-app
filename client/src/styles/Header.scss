@@ -1,0 +1,8 @@
+@import "Variables";
+.wrapper {
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    h1 {
+        @include header(translate(-50%, -50%) skew(10deg) rotate(-10deg));
+    }
+}
